@@ -93,3 +93,10 @@ img {
     margin: 2.5rem 0;
     background: #eee;
 }
+
+@media screen and (max-width: 780px) {
+    .parallax {
+        background-attachment: scroll !important;
+        background-position: center center !important;
+    }
+}
