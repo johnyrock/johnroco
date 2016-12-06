@@ -95,9 +95,20 @@ img {
 }
 
 @media only screen and (max-width: 780px) {
-    .parallax {
-        background-attachment: scroll !important;
-        background-position: center center !important;
-        height: 50px !important;
-    }
+  .parallax {
+      background-attachment: scroll !important;
+      background-position: center center !important;
+      height: 50px !important;
+  }
+  
+  .navbar-brand{
+    font-family: Baloo Paaji;
+    font-size: 30px;
+    color: white;
+  }
+    
+  body {
+    background-color: blue;
+    font-family: Nunito;
+  }
 }
