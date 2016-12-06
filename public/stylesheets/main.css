@@ -98,5 +98,6 @@ img {
     .parallax {
         background-attachment: scroll !important;
         background-position: center center !important;
+        height: 50px !important;
     }
 }
