@@ -94,7 +94,7 @@ img {
     background: #eee;
 }
 
-@media screen and (max-width: 780px) {
+@media only screen and (max-width: 780px) {
     .parallax {
         background-attachment: scroll !important;
         background-position: center center !important;
