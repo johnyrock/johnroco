@@ -19,8 +19,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-	height: 100%;
-	width: 100%;
+	/*height: 100%;*/
+	/*width: 100%;*/
+  transition: height 1000000s ease;
+  -webkit-transition: height 1000000s ease;
+  -moz-transition: height 1000000s ease;
+  -o-transition: height 1000000s ease;
 }
 
 .navbar-brand{
@@ -94,21 +98,21 @@ img {
     background: #eee;
 }
 
-@media only screen and (max-width: 780px) {
-  .parallax {
-      background-attachment: scroll !important;
-      background-position: center center !important;
-      height: 50px !important;
-  }
+/*@media only screen and (max-width: 780px) {*/
+/*  .parallax {*/
+/*      background-attachment: scroll !important;*/
+/*      background-position: center center !important;*/
+/*      height: 50px !important;*/
+/*  }*/
   
-  .navbar-brand{
-    font-family: Baloo Paaji;
-    font-size: 30px;
-    color: white;
-  }
+/*  .navbar-brand{*/
+/*    font-family: Baloo Paaji;*/
+/*    font-size: 30px;*/
+/*    color: white;*/
+/*  }*/
     
-  body {
-    background-color: blue;
-    font-family: Nunito;
-  }
-}
+/*  body {*/
+/*    background-color: blue;*/
+/*    font-family: Nunito;*/
+/*  }*/
+/*}*/
